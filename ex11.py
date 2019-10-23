@@ -3,9 +3,9 @@
 
 import os
 
-arquivo = r'C:\\Users\\mariana.dsantos\\Documents\\Teste de performance 1_2\\Teste de performance 1_2 Python\\exemplo.txt'
+arquivo = 'exemplo.txt'
 
 if os.path.exists(arquivo):
-    open(arquivo)
+    os.system(arquivo)
 else:
     print(arquivo, 'não existe!')
